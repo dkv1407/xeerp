@@ -1,0 +1,17 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for better visibility -->
+  <rect width="120" height="40" rx="4" fill="rgba(255, 255, 255, 0.1)"/>
+
+  <!-- "Xe" part with modern styling -->
+  <text x="10" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">
+    Xe
+  </text>
+
+  <!-- "ERP" part with accent color -->
+  <text x="46" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#FCD34D">
+    ERP
+  </text>
+
+  <!-- Modern accent line -->
+  <line x1="10" y1="32" x2="95" y2="32" stroke="#FCD34D" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer spinning circle -->
+  <circle cx="40" cy="40" r="35" stroke="url(#gradient)" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="164.93 54.98">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 40 40"
+      to="360 40 40"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Inner spinning circle -->
+  <circle cx="40" cy="40" r="25" stroke="url(#gradient2)" stroke-width="3" stroke-linecap="round" fill="none" stroke-dasharray="94.25 31.42" opacity="0.6">
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="360 40 40"
+      to="0 40 40"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- "Xe" text in center -->
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#667eea" text-anchor="middle">
+    Xe
+  </text>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
