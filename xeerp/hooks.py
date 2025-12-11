@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-add_to_apps_screen = [
-	{
-		"name": "xeerp",
-		"logo": "/assets/xeerp/xeERP-Fevicon.png",
-		"title": "XeERP",
-		"route": "/app/xeerp",
-		# "has_permission": "xeerp.api.permission.has_app_permission"
-	}
-]
+# add_to_apps_screen = [
+# 	{
+# 		"name": "xeerp",
+# 		"logo": "/assets/xeerp/xeERP-Fevicon.png",
+# 		"title": "XeERP",
+# 		"route": "/app/xeerp",
+# 		"has_permission": "xeerp.api.permission.has_app_permission"
+# 	}
+# ]
 
 # Includes in <head>
 # ------------------
@@ -29,12 +29,14 @@ add_to_apps_screen = [
 # ]
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/xeerp/css/xeerp.css"
-app_include_js = "/assets/xeerp/js/custom_navbar.js"
+# app_include_css = "/assets/xeerp/css/xeerp.css"
+app_include_css = "/assets/xeerp/css/xeerp_2.css"
+# app_include_js = "/assets/xeerp/js/custom_navbar.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/xeerp/css/custom_login.css"
-web_include_js = "/assets/xeerp/js/custom_login.js"
+# web_include_css = "/assets/xeerp/css/custom_login.css"
+web_include_css = "/assets/xeerp/css/login_2.css"
+# web_include_js = "/assets/xeerp/js/custom_login.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "xeerp/public/scss/website"
@@ -55,7 +57,7 @@ web_include_js = "/assets/xeerp/js/custom_login.js"
 # Svg Icons
 # ------------------
 # include app icons in desk
-app_include_icons = "/assets/xeerp/xeERP-Fevicon.png"
+# app_include_icons = "/assets/xeerp/xeERP-Fevicon.png"
 
 # Home Pages
 # ----------

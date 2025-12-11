@@ -1,0 +1,32 @@
+body {
+    background-color: #e8eafcad !important;
+}
+.page-card-head h4 {
+    margin-top: 2% !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    letter-spacing: 0.02em !important;
+    color: #691551 !important;
+}
+.for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {
+    padding: 45px 10px;
+    background-color: #a5488a !important;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: var(--border-radius-md);
+    border: 1px solid #a5488a !important;
+}
+.for-login .page-card .page-card-body .forgot-password-message > *, .for-forgot .page-card .page-card-body .forgot-password-message > *, .for-login-with-email-link .page-card .page-card-body .forgot-password-message > *, .for-signup .page-card .page-card-body .forgot-password-message > *, .for-email-login .page-card .page-card-body .forgot-password-message > * {
+    color: #ffffff !important;
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+}
+.text-muted {
+    color: #fffefe !important;
+}
+.web-footer {
+    background-color: #e8eafcad !important;
+    border-top: 1px solid #a5488a !important;
+}
