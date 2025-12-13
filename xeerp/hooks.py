@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "xeerp",
-# 		"logo": "/assets/xeerp/xeERP-Fevicon.png",
-# 		"title": "XeERP",
-# 		"route": "/app/xeerp",
-# 		"has_permission": "xeerp.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "xeerp",
+		"logo": "/assets/xeerp/xeERP-Fevicon.png",
+		"title": "XeERP",
+		"route": "/app/xeerp",
+		# "has_permission": "xeerp.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
